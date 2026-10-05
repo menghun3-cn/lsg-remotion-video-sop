@@ -1,5 +1,11 @@
 # lsg-remotion-video-sop
 
+把下面这一段原样复制给 AI Agent，即可把本技能安装到用户主目录的 `.agents/skills`，对所有项目全局生效：
+
+```
+请安装技能 lsg-remotion-video-sop，并让它全局生效。仓库是 https://github.com/menghun3-cn/lsg-remotion-video-sop 。把仓库内容放到当前用户主目录下的 .agents/skills/lsg-remotion-video-sop（Windows 为 %USERPROFILE%\.agents\skills\lsg-remotion-video-sop，macOS 和 Linux 为 ~/.agents/skills/lsg-remotion-video-sop）。目录不存在就先创建。安装完成后，SKILL.md 必须位于该技能根目录，references 与 assets 保持原有相对路径。不要安装到项目内的 skills 目录，也不要安装到 .cursor/skills。装好后确认该路径下能读到 SKILL.md。
+```
+
 用 Remotion + React 做讲解片和宣传片的 SOP 技能。开工前先拷问并给出推荐项，确认分镜之后再渲染。先出无语音成片，成品后再补语音和音效。
 
 ## 分类
